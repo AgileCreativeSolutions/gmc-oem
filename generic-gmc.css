@@ -1,6 +1,5 @@
 /* Font */
 @font-face {
-font-display: fallback;
 font-family: "Stratum-Black";
 font-style: normal;
 font-weight: 900;
@@ -8,7 +7,6 @@ src: url("https://brands.gm-cdn.com/gbds/gmc/fonts/stratum-black.woff2") format(
 }
 
 @font-face {
-font-display: fallback;
 font-family: "Stratum-Light";
 font-style: normal;
 font-weight: 100;
@@ -16,7 +14,6 @@ src: url("https://brands.gm-cdn.com/gbds/gmc/fonts/stratum-light.woff2") format(
 }
 
 @font-face {
-font-display: fallback;
 font-family: "Stratum-Medium";
 font-style: normal;
 font-weight: 500;
@@ -27,7 +24,7 @@ src: url("https://brands.gm-cdn.com/gbds/gmc/fonts/stratum-medium.woff2") format
 
 
 .acs-wrapper { 
-font-family: "Mulish", sans-serif
+font-family: 'Mulish', sans-serif;
 }
 
 .acs-bold {
@@ -171,7 +168,7 @@ color: var(--accent4) !important;
 /* BUTTONS: START */
 /* Button 1 */
 .acs-button {
-font: 700 1.5rem "Mulish", sans-serif;
+font: 700 1.5rem 'Mulish', sans-serif;
 background-color: transparent;
 display: inline-block;
 text-align: center;
@@ -194,7 +191,7 @@ border: solid 2px var(--accent4)
 }
 
 .acs-button2 {
-font: 700 1.5rem "Mulish", sans-serif;
+font: 700 1.5rem 'Mulish', sans-serif;
 background-color: transparent;
 display: inline-block;
 text-align: center;
@@ -217,7 +214,7 @@ border: solid 2px var(--dark5)
 }
 
 .acs-button3 {
-font: 700 1.5rem "Mulish", sans-serif;
+font: 700 1.5rem 'Mulish', sans-serif;
 background-color: transparent;
 display: inline-block;
 text-align: center;
@@ -240,7 +237,7 @@ border: solid 2px var(--white)
 }
 
 .acs-button4 {
-font: 700 1.5rem "Mulish", sans-serif;
+font: 700 1.5rem 'Mulish', sans-serif;
 background-color: var(--accent);
 display: inline-block;
 text-align: center;
@@ -263,7 +260,7 @@ border: solid 2px var(--accent4)
 }
 
 .acs-button5 {
-font: 700 1.5rem "Mulish", sans-serif;
+font: 700 1.5rem 'Mulish', sans-serif;
 background-color: var(--dark5);
 display: inline-block;
 text-align: center;
@@ -286,7 +283,7 @@ border: solid 2px var(--dark4)
 }
 
 .acs-button6 {
-font: 700 1.5rem "Mulish", sans-serif;
+font: 700 1.5rem 'Mulish', sans-serif;
 background-color: var(--white);
 display: inline-block;
 text-align: center;

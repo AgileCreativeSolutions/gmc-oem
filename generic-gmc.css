@@ -36,9 +36,8 @@ src: url("https://brands.gm-cdn.com/gbds/gmc/fonts/muli-bold-webfont.woff2") for
 
 
 
-
 .acs-wrapper { 
-font-family: "Muli", sans-serif;
+font-family: "Muli", sans-serif !important;
 font-weight: 500;
 }
 

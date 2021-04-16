@@ -28,7 +28,7 @@ src: url("https://brands.gm-cdn.com/gbds/gmc/fonts/muli-webfont.woff2") format("
 }
 
 @font-face {
-font-family: "Muli";
+font-family: "Muli-Bold";
 font-style: normal;
 font-weight: 700;
 src: url("https://brands.gm-cdn.com/gbds/gmc/fonts/muli-bold-webfont.woff2") format("woff2"), url("https://brands.gm-cdn.com/gbds/gmc/fonts/muli-bold-webfont.woff") format("woff")
@@ -172,6 +172,7 @@ background-color: var(--dark6)
 /* Link Accent */
 .acs-link-accent {
 color: var(--accent) !important;
+text-decoration: none;
 transition: all 0.2s ease-in-out 0s;
 }
 .acs-link-accent:hover {
@@ -182,7 +183,7 @@ color: var(--accent4) !important;
 /* BUTTONS: START */
 /* Button 1 */
 .acs-button {
-font: 700 1.5rem "Muli", sans-serif;
+font: 700 1.5rem "Muli-Bold", sans-serif;
 background-color: transparent;
 display: inline-block;
 text-align: center;
@@ -205,7 +206,7 @@ border: solid 2px var(--accent4)
 }
 
 .acs-button2 {
-font: 700 1.5rem "Muli", sans-serif;
+font: 700 1.5rem "Muli-Bold", sans-serif;
 background-color: transparent;
 display: inline-block;
 text-align: center;
@@ -228,7 +229,7 @@ border: solid 2px var(--dark5)
 }
 
 .acs-button3 {
-font: 700 1.5rem "Muli", sans-serif;
+font: 700 1.5rem "Muli-Bold", sans-serif;
 background-color: transparent;
 display: inline-block;
 text-align: center;
@@ -251,7 +252,7 @@ border: solid 2px var(--white)
 }
 
 .acs-button4 {
-font: 700 1.5rem "Muli", sans-serif;
+font: 700 1.5rem "Muli-Bold", sans-serif;
 background-color: var(--accent);
 display: inline-block;
 text-align: center;
@@ -274,7 +275,7 @@ border: solid 2px var(--accent4)
 }
 
 .acs-button5 {
-font: 700 1.5rem "Muli", sans-serif;
+font: 700 1.5rem "Muli-Bold", sans-serif;
 background-color: var(--dark5);
 display: inline-block;
 text-align: center;
@@ -297,7 +298,7 @@ border: solid 2px var(--dark4)
 }
 
 .acs-button6 {
-font: 700 1.5rem "Muli", sans-serif;
+font: 700 1.5rem "Muli-Bold", sans-serif;
 background-color: var(--white);
 display: inline-block;
 text-align: center;

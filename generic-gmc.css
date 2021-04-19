@@ -42,7 +42,7 @@ font-weight: 500;
 }
 
 .acs-bold {
-font-family: var(--bold-font);   
+font-family: var(--bold-font) !important;   
 font-weight: 900;
 }
 
@@ -71,52 +71,52 @@ font-weight: 900;
 
 /* Text Colors */
 .acs-black {
-color: var(--black)
+color: var(--black) !important
 }
 .acs-white {
-color: var(--white)
+color: var(--white) !important
 }
 .acs-gray {
-color: var(--gray)
+color: var(--gray) !important
 }
 .acs-gray2 {
-color: var(--gray2)
+color: var(--gray2) !important
 }
 .acs-gray3 {
-color: var(--gray3)
+color: var(--gray3) !important
 }
 .acs-dark {
-color: var(--dark)
+color: var(--dark) !important
 }
 .acs-dark2 {
-color: var(--dark2)
+color: var(--dark2) !important
 }
 .acs-dark3 {
-color: var(--dark3)
+color: var(--dark3) !important
 }
 .acs-dark4 {
-color: var(--dark4)
+color: var(--dark4) !important
 }
 .acs-dark5 {
-color: var(--dark5)
+color: var(--dark5) !important
 }
 .acs-dark6 {
-color: var(--dark6)
+color: var(--dark6) !important
 }
 
 
 /* Accent Colors */
 .acs-accent {
-color: var(--accent)
+color: var(--accent) !important
 }
 .acs-accent2 {
-color: var(--accent2)
+color: var(--accent2) !important
 }
 .acs-accent3 {
-color: var(--accent3)
+color: var(--accent3) !important
 }
 .acs-accent4 {
-color: var(--accent4)
+color: var(--accent4) !important
 }
 
 
@@ -187,7 +187,7 @@ font: 700 1.5rem "Muli-Bold", sans-serif;
 background-color: transparent;
 display: inline-block;
 text-align: center;
-color: var(--accent);
+color: var(--accent) !important;
 border: solid 2px var(--accent);
 text-decoration: none !important;
 padding: 1rem;
@@ -201,7 +201,7 @@ transition-timing-function: cubic-bezier(0,1,0.5,1)
 }
 .acs-button:hover {
 background-color: var(--accent4);
-color: var(--white);
+color: var(--white) !important;
 border: solid 2px var(--accent4)
 }
 
@@ -210,7 +210,7 @@ font: 700 1.5rem "Muli-Bold", sans-serif;
 background-color: transparent;
 display: inline-block;
 text-align: center;
-color: var(--dark5);
+color: var(--dark5) !important;
 border: solid 2px var(--dark5);
 text-decoration: none !important;
 padding: 1rem;
@@ -224,7 +224,7 @@ transition-timing-function: cubic-bezier(0,1,0.5,1)
 }
 .acs-button2:hover {
 background-color: var(--dark5);
-color: var(--white);
+color: var(--white) !important;
 border: solid 2px var(--dark5)
 }
 
@@ -233,7 +233,7 @@ font: 700 1.5rem "Muli-Bold", sans-serif;
 background-color: transparent;
 display: inline-block;
 text-align: center;
-color: var(--white);
+color: var(--white) !important;
 border: solid 2px var(--white);
 text-decoration: none !important;
 padding: 1rem;
@@ -247,7 +247,7 @@ transition-timing-function: cubic-bezier(0,1,0.5,1)
 }
 .acs-button3:hover {
 background-color: var(--white);
-color: var(--dark6);
+color: var(--dark6) !important;
 border: solid 2px var(--white)
 }
 
@@ -256,7 +256,7 @@ font: 700 1.5rem "Muli-Bold", sans-serif;
 background-color: var(--accent);
 display: inline-block;
 text-align: center;
-color: var(--white);
+color: var(--white) !important;
 border: solid 2px var(--accent);
 text-decoration: none !important;
 padding: 1rem;
@@ -270,7 +270,7 @@ transition-timing-function: cubic-bezier(0,1,0.5,1)
 }
 .acs-button4:hover {
 background-color: var(--accent4);
-color: var(--white);
+color: var(--white) !important;
 border: solid 2px var(--accent4)
 }
 
@@ -279,7 +279,7 @@ font: 700 1.5rem "Muli-Bold", sans-serif;
 background-color: var(--dark5);
 display: inline-block;
 text-align: center;
-color: var(--white);
+color: var(--white) !important;
 border: solid 2px var(--dark5);
 text-decoration: none !important;
 padding: 1rem;
@@ -293,7 +293,7 @@ transition-timing-function: cubic-bezier(0,1,0.5,1)
 }
 .acs-button5:hover {
 background-color: var(--dark4);
-color: var(--white);
+color: var(--white) !important;
 border: solid 2px var(--dark4)
 }
 
@@ -302,7 +302,7 @@ font: 700 1.5rem "Muli-Bold", sans-serif;
 background-color: var(--white);
 display: inline-block;
 text-align: center;
-color: var(--dark5);
+color: var(--dark5) !important;
 border: solid 2px var(--white);
 text-decoration: none !important;
 padding: 1rem;
@@ -316,7 +316,7 @@ transition-timing-function: cubic-bezier(0,1,0.5,1)
 }
 .acs-button6:hover {
 background-color: var(--dark5);
-color: var(--white);
+color: var(--white) !important;
 border: solid 2px var(--dark5)
 }
 
@@ -325,7 +325,7 @@ font: 700 1.5rem "Muli-Bold", sans-serif;
 background-color: transparent;
 display: inline-block;
 text-align: center;
-color: var(--white);
+color: var(--white) !important;
 border: solid 2px var(--accent);
 text-decoration: none !important;
 padding: 1rem;
@@ -339,7 +339,7 @@ transition-timing-function: cubic-bezier(0,1,0.5,1)
 }
 .acs-button7:hover {
 background-color: var(--accent);
-color: var(--white);
+color: var(--white) !important;
 border: solid 2px var(--accent)
 }
 /* BUTTONS: END */

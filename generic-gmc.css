@@ -1,4 +1,4 @@
-/* Font */
+/* OEM Font Embed */
 @font-face {
 font-family: "Stratum-Light";
 font-style: normal;
@@ -33,7 +33,20 @@ font-style: normal;
 font-weight: 700;
 src: url("https://brands.gm-cdn.com/gbds/gmc/fonts/muli-bold-webfont.woff2") format("woff2"), url("https://brands.gm-cdn.com/gbds/gmc/fonts/muli-bold-webfont.woff") format("woff")
 }
+/* OEM Font Embed */
 
+
+
+/* OEM Font */
+.acs-wrapper { 
+font-family: "Muli", sans-serif !important;
+font-weight: 500;
+}
+/* OEM Font */
+
+
+
+/* Heading Tags */
 .acs-h1, .acs-h2, .acs-h3, .acs-h4, .acs-h5, .acs-h6 {
 font-family: "Stratum-Black", sans-serif;
 font-weight: 900;
@@ -90,18 +103,37 @@ font-size: 1.4rem !important;
 font-size: 1.2rem !important;
 }
 }
+/* Heading Tags */
 
 
 
-.acs-wrapper { 
-font-family: "Muli", sans-serif !important;
-font-weight: 500;
+/* OEM Font Variables */
+.gmc-brand-bd {
+font-family: "Muli-Bold" !important; 
+font-weight: 700 !important;
+}
+
+.gmc-brand-head-lt {
+font-family: "Stratum-Light" !important;
+font-weight: 100 !important;
+}
+
+.gmc-brand-head-md {
+font-family: "Stratum-Medium" !important;
+font-weight: 400 !important;
+}
+
+.gmc-brand-head-bk {
+font-family: "Stratum-Black" !important;
+font-weight: 500 !important;
 }
 
 .acs-bold {
 font-family: var(--bold-font) !important;   
 font-weight: 900;
 }
+/* OEM Font Variables */
+
 
 
 /* Variables */
@@ -123,6 +155,7 @@ font-weight: 900;
 --dark6: #302F2F;
 --bold-font: "Stratum-Black", sans-serif;
 }
+/* Variables */
 
 
 
@@ -160,6 +193,8 @@ color: var(--dark5) !important
 .acs-dark6 {
 color: var(--dark6) !important
 }
+/* Text Colors */
+
 
 
 /* Accent Colors */
@@ -175,55 +210,78 @@ color: var(--accent3) !important
 .acs-accent4 {
 color: var(--accent4) !important
 }
+/* Accent Colors */
 
 
 
 /* BG Colors */
 .acs-bg-accent {
-background-color: var(--accent)
+--acs-bg-opacity: 1;
+background-color: var(--accent);
+background-color: rgba(204,0,1, var(--acs-bg-opacity))
 }
 .acs-bg-accent2 {
-background-color: var(--accent2)
+--acs-bg-opacity: 1;
+background-color: var(--accent2);
+background-color: rgba(170,0,1, var(--acs-bg-opacity))
 }
 .acs-bg-accent3 {
-background-color: var(--accent3)
+--acs-bg-opacity: 1;
+background-color: var(--accent3);
+background-color: rgba(203,32,38, var(--acs-bg-opacity))
 }
 .acs-bg-accent4 {
-background-color: var(--accent4)
-}
-.acs-bg-black {
-background-color: var(--black)
-}
-.acs-bg-white {
-background-color: var(--white)
+--acs-bg-opacity: 1;
+background-color: var(--accent4);
+background-color: rgba(168,1,16, var(--acs-bg-opacity))
 }
 .acs-bg-gray {
-background-color: var(--gray)
+--acs-bg-opacity: 1;
+background-color: var(--gray);
+background-color: rgba(235,235,235, var(--acs-bg-opacity))
 }
 .acs-bg-gray2 {
-background-color: var(--gray2)
+--acs-bg-opacity: 1;
+background-color: var(--gray2);
+background-color: rgba(212,212,212, var(--acs-bg-opacity))
 }
 .acs-bg-gray3 {
-background-color: var(--gray3)
+--acs-bg-opacity: 1;
+background-color: var(--gray3);
+background-color: rgba(178,178,178, var(--acs-bg-opacity))
 }
 .acs-bg-dark {
-background-color: var(--dark)
+--acs-bg-opacity: 1;
+background-color: var(--dark);
+background-color: rgba(70,70,70, var(--acs-bg-opacity))
 }
 .acs-bg-dark2 {
-background-color: var(--dark2)
+--acs-bg-opacity: 1;
+background-color: var(--dark2);
+background-color: rgba(60,61,60, var(--acs-bg-opacity))
 }
 .acs-bg-dark3 {
-background-color: var(--dark3)
+--acs-bg-opacity: 1;
+background-color: var(--dark3);
+background-color: rgba(47,46,46, var(--acs-bg-opacity))
 }
 .acs-bg-dark4 {
-background-color: var(--dark4)
+--acs-bg-opacity: 1;
+background-color: var(--dark4);
+background-color: rgba(6,5,5, var(--acs-bg-opacity))
 }
 .acs-bg-dark5 {
-background-color: var(--dark5)
+--acs-bg-opacity: 1;
+background-color: var(--dark5);
+background-color: rgba(42,42,42, var(--acs-bg-opacity))
 }
 .acs-bg-dark6 {
-background-color: var(--dark6)
+--acs-bg-opacity: 1;
+background-color: var(--dark6);
+background-color: rgba(48,47,47, var(--acs-bg-opacity))
 }
+/* BG Colors */
+
 
 
 /* Link Accent */
@@ -235,6 +293,8 @@ transition: all 0.2s ease-in-out 0s;
 .acs-link-accent:hover {
 color: var(--accent4) !important; 
 }
+/* Link Accent */
+
 
 
 /* BUTTONS: START */
